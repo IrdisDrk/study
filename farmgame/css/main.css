@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: #FDFCEF;
+    border-radius: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 82px;
+}
+
+.offer{
+    width: 465px;
+}
+
+.gamedescription {
+    width: 423px;
+    margin: 30px 0px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 41px auto 0 auto;
+}
+    
+.btn {
+    background: #FF6861;
+    border-radius: 100px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 22px 70px;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 227px;
+}
+
+.list-title {
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+.list-description {
+    padding-left: 34px;
+}
+
+.invite-wrapper {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 125px 75px 122px;
+}
+
+.invite-description {
+    margin: 24px 0px;
+    width: 371px;
+}
+
+.invite-title {
+    width: 475px;
+    text-align: left;
+}
+
+footer {
+    margin: 120px 0px;
+    font-size: 15px;
+    text-align: center;
+}
